@@ -1,8 +1,15 @@
 # Linux
 
+## Configuração inicial
+
+> x
+
 ## Ubuntu Pro
 
 - [ ] Problema na ativação
+- [ ]  Problema na ativação
+- [x] Problema na ativação
+- [x]  Problema na ativação
 
 ## Máquinas virtuais
 
