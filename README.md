@@ -2,27 +2,55 @@
 
 ## Configuração inicial
 
-> x
+> ```sudo apt update```  
+> ```sudo apt upgrade```
+
+### inconfig
+> ```sudo apt install net-tools```
+
+### ssh
+
+> ```sudo apt install openssh-server```
 
 ## Ubuntu Pro
 
 - [ ] Problema na ativação
-- [ ]  Problema na ativação
-- [x] Problema na ativação
-- [x]  Problema na ativação
 
-## Máquinas virtuais
+## [Multipass](https://multipass.run)
 
-### Multipass
+### Instalação
 
-https://multipass.run/install  
+> ```sudo snap install multipass```
 
-#### Instalação
+### Nova máquina
 
-> sudo snap install multipass
+> ```multipass launch --name foo```
 
-#### Nova máquina
+### [Question: How to bridge local LAN using Multipass](https://askubuntu.com/questions/1425752/how-to-bridge-local-lan-using-multipass)
 
-> multipass launch --name foo
+> ```snap install lxd```  
+> ```snap connect multipass:lxd lxd```  
+> ```multipass set local.driver=lxd```
 
+## [Microk8s](https://microk8s.io)
 
+### [Tutorial: How to build a highly available Kubernetes cluster with MicroK8s](https://ubuntu.com/tutorials/getting-started-with-kubernetes-ha?&_ga=2.239771459.1199547494.1698074084-802118456.1698074084#1-overview)
+
+> ```multipass launch -m 2Gb -n luja-01 --network eno1 -d 50G```
+
+> ```sudo shell luja-01```
+
+> ```sudo snap install microk8s --classic```
+
+> ```microk8s status --wait-ready```
+
+> ```sudo usermod -a -G microk8s ubuntu```  
+> ```sudo chown -f -R ubuntu ~/.kube```
+
+> ```newgrp microk8s```
+
+> (*)```microk8s status --wait-ready```
+
+> ```microk8s add-node```
+
+### [Addon: dashboard](https://microk8s.io/docs/addon-dashboard)
