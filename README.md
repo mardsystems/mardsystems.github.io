@@ -10,13 +10,13 @@
 
 ### ssh
 
-#### [Tutorial: 3 Ways to Use SSH on Windows to Log Into Linux Server](https://www.linuxbabe.com/linux-server/ssh-windows)
-
-#### [Tutorial: Como configurar as chaves SSH no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04-pt)
-
 #### [Installation](https://ubuntu.com/server/docs/service-openssh)
 
 > ```sudo apt install openssh-server```
+
+#### [Tutorial: 3 Ways to Use SSH on Windows to Log Into Linux Server](https://www.linuxbabe.com/linux-server/ssh-windows)
+
+#### [Tutorial: Como configurar as chaves SSH no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04-pt)
 
 ## Ubuntu Pro
 
