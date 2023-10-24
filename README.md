@@ -20,7 +20,7 @@
 
 ## Ubuntu Pro
 
-- [ ]&nbsp;Problema na ativação
+- [ ] &nbsp;Problema na ativação
 
 ## [Multipass](https://multipass.run)
 
