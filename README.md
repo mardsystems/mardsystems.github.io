@@ -60,3 +60,5 @@
 > ```microk8s add-node```
 
 ### [Addon: dashboard](https://microk8s.io/docs/addon-dashboard)
+
+#### [Kubernetes dashboard through Ingress](https://stackoverflow.com/questions/52312464/kubernetes-dashboard-through-ingress)
