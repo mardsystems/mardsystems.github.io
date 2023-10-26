@@ -62,3 +62,7 @@
 ### [Addon: dashboard](https://microk8s.io/docs/addon-dashboard)
 
 #### [Kubernetes dashboard through Ingress](https://stackoverflow.com/questions/52312464/kubernetes-dashboard-through-ingress)
+
+# ASP
+
+### [Hosting ASP.NET Core images with Docker Compose over HTTPS](https://learn.microsoft.com/en-us/aspnet/core/security/docker-compose-https?view=aspnetcore-6.0)
